@@ -3,6 +3,9 @@ import ReactDOM from 'react-dom/client';
 import './index.css'; //같은 폴더에 있는 파일은 ./index.css
 import App from './App';
 import reportWebVitals from './reportWebVitals';
+import Gugudan from './Gugudan';
+import Gugufunction from './Gugufunction';
+import GugudanGame from './GugudanGame';
 
 function Square(props) {
 
@@ -119,4 +122,4 @@ function calculateWinner(squares) {
 // ========================================
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
-root.render(<Game />);
+root.render(<GugudanGame />);
